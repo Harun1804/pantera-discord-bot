@@ -1,0 +1,15 @@
+{
+  "name": "pantera-bot",
+  "version": "1.0.0",
+  "description": "Membuat bot discord sederhana",
+  "main": "index.js",
+  "repository": "https://github.com/Harun1804/pantera-discord-bot.git",
+  "author": "Harun1804 <Harun.arrasyid1804@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
