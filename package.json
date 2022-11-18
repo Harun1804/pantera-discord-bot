@@ -1,16 +1,29 @@
 {
   "name": "pantera-bot",
   "version": "1.0.0",
-  "description": "Membuat bot discord sederhana",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/Harun1804/pantera-discord-bot.git",
-  "author": "Harun1804 <Harun.arrasyid1804@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^14.6.0",
-    "dotenv": "^16.0.3"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harun1804/pantera-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harun1804/pantera-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Harun1804/pantera-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "type": "module",
   "devDependencies": {
-    "eslint": "^8.27.0"
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
   }
 }
